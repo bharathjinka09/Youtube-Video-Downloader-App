@@ -25,4 +25,4 @@ app.get("/download",function(request,response){
 	}).pipe(response);
 });
 
-app.listen(5000 || process.env.PORT);
+app.listen(process.env.PORT || 5000);
